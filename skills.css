@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variable Create */
+:root{
+    --dark-clr: #081d2c;
+    --second-dark-clr: #112e42;
+    --text-clr: #f1f5f9;
+    --light-text-clr: #c9d9e8;
+    --global-clr: #0fbbff;
+    --btn-clr:#ff499e;
+}
+
+/*Genaral Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+ /* html and body style*/
+ html{
+    overflow-x: hidden;
+    line-height: calc(1em + 0.5rem);
+ }
+
+ body{
+    font-family: "Jost", serif;
+    background: var(--dark-clr);
+    background: url(download\ \(1\).jpeg) no-repeat;
+    background-size: cover;
+    background-position: cover;
+    color: var(--text-clr);
+    line-height: 1.3;
+ }
+
+ .mado{
+    padding: 4rem;
+    justify-content: space-between;
+    padding: 0.5rem 3%;
+    top: 16px;
+
+ }
+
+ .mado span{
+    color: var(--global-clr);
+    padding: 4rem;
+    padding: 0.5rem 3%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+ }
+.pic img{
+   height: 300px;
+    width: 300px;
+    min-width: 20px;
+    filter: drop-shadow(0 0 60 var(--global-clr));
+    position: relative;
+    display: flex;
+    padding:.5rem 20%;
+}
+
+.skilio{
+   padding: 6rem;
+    justify-content: space-between;
+    padding: 0.5rem 4%;
+    top: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exp span{
+   color: var(--global-clr);
+   padding: 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+}
+
+.visit-link {
+   display: inline-block;
+   margin-top: 20px;
+   padding: 10px 20px;
+   color: white;
+   background-color: #007bff;
+   text-decoration: none;
+   border-radius: 4px;
+   transition: background-color 0.3s;
+}
+
+.visit-link:hover {
+   background-color: #0056b3;
+}
+.exp{
+   padding: 1.7rem;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+/* Variable Create */
+:root{
+    --dark-clr: #081d2c;
+    --second-dark-clr: #112e42;
+    --text-clr: #f1f5f9;
+    --light-text-clr: #c9d9e8;
+    --global-clr: #0fbbff;
+    --btn-clr:#ff499e;
+}
+
+/*Genaral Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+ /* html and body style*/
+ html{
+    overflow-x: hidden;
+    line-height: calc(1em + 0.5rem);
+ }
+
+ .boo{
+   padding-right: 7px;
+ }
+ body{
+    font-family: "Jost", serif;
+    background: var(--dark-clr);
+    color: var(--text-clr);
+    line-height: 1.3;
+    background: url(settings.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .informat{
+    padding: 4rem;
+    text-decoration: none;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3%;
+ }
+ .kich{
+    color: var(--global-clr);
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: 500;
+    
+ }
+
+ .informat span{
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--text-clr);
+ }
+
+ .obj {
+    padding: 4rem;
+    text-decoration: none;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3%;
+ }
+ .obj ul li a{
+    padding: 4rem;
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 20px;
+    color: var(--text-clr);
+ }
+ .obj span{
+    color: var(--global-clr);
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 3rem 3%;
+    justify-content: space-between;
+    bottom: -2px;
+ }
+.port{
+   padding: 2rem;
+   text-decoration: none;
+   font-weight: 600;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.5rem 3%;
+}
+ .port span{
+   color: var(--global-clr);
+   position: relative;
+   font-size: 1.3rem;
+   font-weight: 500;
+   padding: 3rem 3%;
+   justify-content: space-between;
+   bottom: -2px;
+ }
